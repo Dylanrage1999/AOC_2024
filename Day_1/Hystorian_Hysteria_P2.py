@@ -18,7 +18,7 @@ def calculate_similarity_score(file_path):
 
     return similarity_score
 
-file_path = '../Day_1_Part_1/day1_input.txt'
+file_path = 'day1_input.txt'
 
 similarity_score = calculate_similarity_score(file_path)
 print(f"Similarity score: {similarity_score}")
